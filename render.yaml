@@ -1,9 +1,9 @@
 version: 1
 services:
   - type: web
-    name: my-service
+    name: your-service-name
     env: python
     buildCommand: |
       pip install --upgrade pip==24.2
       pip install -r requirements.txt
-    startCommand: gunicorn myapp.wsgi:application
+    startCommand: gunicorn your_app.wsgi:application  # Adjust as needed
