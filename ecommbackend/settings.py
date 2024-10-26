@@ -136,5 +136,5 @@ MEDIA_URL = '/media/'
 ALLOWED_HOSTS = ['*']
 
 DATABASES = {
-    "default": dj_database_url.parse("postgres://stivo_user:xvxSXcHFzinX9jckHHFGhMZcnSxoPKbC@dpg-crnfcdo8fa8c738f976g-a.oregon-postgres.render.com/stivo")
+    "default": dj_database_url.parse("postgresql://stivio_user:BcdeAiw9AQFsyFtaoFZwQascBlKem9EB@dpg-csegs80gph6c73eq0dog-a.oregon-postgres.render.com/stivio")
 }
