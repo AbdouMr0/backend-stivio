@@ -14,10 +14,6 @@ DEBUG = True
 import dj_database_url
 import os
 
-DATABASES = {
-    "default": dj_database_url.parse("postgres://stivo_user:xvxSXcHFzinX9jckHHFGhMZcnSxoPKbC@dpg-crnfcdo8fa8c738f976g-a.oregon-postgres.render.com/stivo")
-}
-
 
 INSTALLED_APPS = [
     'django.contrib.admin',
